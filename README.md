@@ -22,7 +22,6 @@ This project recreates common Linux shell commands to understand how they work u
 | `uname` | `Command_uname.c`                 | Print system information |
 | `ps`    | `Command_ps.c`                    | List running processes |
 
-*(`ls2`/`stat2` look like alternate or in-progress versions — merge or note the difference if relevant. `Demo.c` — add a line here if it's a test/demo driver.)*
 
 ## Tech Stack
 
@@ -103,7 +102,3 @@ Run any compiled binary just like the real command:
 - Add support for command-line flags/options (e.g. `ls -l`, `rm -r`)
 - Add more commands (`mkdir`, `touch`, `grep`, etc.)
 - Combine into a single custom shell (REPL)
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
